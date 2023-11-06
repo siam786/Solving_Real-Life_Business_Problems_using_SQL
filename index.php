@@ -67,7 +67,7 @@ $task4_result = $conn->query($task4_query);
 <body>
     <div class="container mt-4">
         <h2 class="text-danger mb-4">Task 1: Customer Information with Total Orders</h2>
-        <table class="table table-striped table-bordered">
+        <table class="table table-dark table-bordered table-hover">
             <thead>
                 <tr class="text-center">
                     <th>Customer ID</th>
@@ -92,7 +92,7 @@ $task4_result = $conn->query($task4_query);
     </div>
     <div class="container mt-4">
         <h2 class="text-danger mb-4">Task 2: Product Information for Order Items</h2>
-        <table class="table table-striped table-bordered">
+        <table class="table table-dark table-bordered table-hover">
             <thead>
                 <tr class="text-center">
                     <th>Order ID</th>
@@ -117,7 +117,7 @@ $task4_result = $conn->query($task4_query);
     </div>
     <div class="container mt-4">
         <h2 class="text-danger mb-4">Task 3: Total Revenue by Product Category</h2>
-        <table class="table table-striped table-bordered">
+        <table class="table table-dark table-bordered table-hover">
             <thead>
                 <tr class="text-center">
                     <th>Category Name</th>
@@ -136,7 +136,7 @@ $task4_result = $conn->query($task4_query);
     </div>
     <div class="container mt-4">
         <h2 class="text-danger mb-4">Task 4: Top 5 Customers by Total Purchase Amount</h2>
-        <table class="table table-striped table-bordered">
+        <table class="table table-dark table-bordered table-hover">
             <thead>
                 <tr class="text-center">
                     <th>Customer Name</th>
